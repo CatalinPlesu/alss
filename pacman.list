@@ -1,0 +1,104 @@
+### fonts
+adobe-source-han-sans-otc-fonts # japanese, chinese and more fonts
+# ttf-fira-code
+terminus-font # increased font size for tty
+
+### terminal
+kitty # my favorite terminal emulator
+
+### terminal apps
+sx # start a X session in a simpler way
+starship # prompt
+zsh # shell
+neovim # terminal text editor
+htop # top but better
+git # version control
+doas # sudo replacement
+youtube-dl # download video stuff
+wget # download things
+newsboat # rss feed reader
+
+### needed
+base-devel
+linux-headers
+xdg-user-dirs
+jre-openjdk
+
+### termnal appeareance
+cowsay
+lolcat
+cmatrix
+
+### image view
+sxiv
+
+### pdf viewer
+zathura
+zathura-pdf-mupdf
+mupdf
+
+### file manager
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman  
+xarchiver
+
+### android
+android-tools
+gvfs-gphoto2
+gvfs-mtp
+
+### thumbnails
+evince
+ffmpegthumbnailer
+freetype2
+gnome-epub-thumbnailer
+libgsf
+mcomix
+poppler-glib
+raw-thumbnailer
+totem
+tumbler
+
+### browser
+qutebrowser
+
+### password manager
+keepassxc
+
+### video player
+mpv
+
+### syncronisation
+syncthing
+
+### office
+libreoffice-fresh
+libreoffice-fresh-ro
+
+# WM setup
+## x wm's
+qtile
+
+### compositor
+picom
+
+### notifications
+dunst
+
+### aplication launcher
+rofi
+
+### keyboard hotkey
+sxhkd
+
+### polkit
+lxsession-gtk3
+
+### network
+networkmanager
+network-manager-applet 
+
+### wallpaper
+nitrogen
