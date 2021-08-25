@@ -2,18 +2,12 @@
 ttf-ms-win10-auto
 nerd-fonts-fira-code
 
-### emoji
-emote
-
 ### terminal appeareance
 pfetch
 
 ### terminal apps
 scrcpy
 backlight_control
-
-### editor
-vscodium
 
 ### plugins
 zsh-syntax-highlighting
