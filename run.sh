@@ -5,5 +5,5 @@ source ./comunity_install.sh
 source ./chaotic_install.sh
 
 source ./post_chroot.sh
-source ./dotfiles.sh
+source ./config.sh
 
