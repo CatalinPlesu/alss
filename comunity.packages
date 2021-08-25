@@ -10,7 +10,7 @@ pulseaudio-alsa
 pavucontrol
 
 ### terminal
-kitty # my favorite terminal emulator
+kitty # simple to use and configure terminal 
 
 ### terminal apps
 sx # start a X session in a simpler way
@@ -23,6 +23,7 @@ doas # sudo replacement
 youtube-dl # download video stuff
 wget # download things
 newsboat # rss feed reader
+tmux
 
 ### needed
 base-devel
@@ -88,8 +89,14 @@ libreoffice-fresh
 libreoffice-fresh-ro
 
 # window manager setup
+## X
+xorg
+xorg-server 
+xorg-apps
+
 ## x wm's
 qtile
+openbox
 
 ### compositor
 picom
