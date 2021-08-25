@@ -11,3 +11,4 @@
 	+ chsh -s /bin/zsh
 	+ /etc/vconsole.conf terminus font
 	+ install libreoffice extensions
+	+ tlp

@@ -24,6 +24,10 @@ youtube-dl # download video stuff
 wget # download things
 newsboat # rss feed reader
 tmux
+tlp
+scrot
+xsecurelock
+xclip
 
 ### needed
 base-devel
