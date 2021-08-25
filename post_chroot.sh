@@ -13,9 +13,6 @@ fi
 
 ln -sf /usr/share/zoneinfo/Europe/Chisinau /etc/localtime
 hwclock --systohc
-pacman -S --noconfirm reflector
-mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
-reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
 
 nc=$(grep -c ^processor /proc/cpuinfo)
 echo "You have " $nc" cores."
