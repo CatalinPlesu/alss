@@ -28,13 +28,13 @@ tlp
 scrot
 xsecurelock
 xclip
-xdg-user-dirs
+xorg-xinit
 
 ### needed
 base-devel
 linux-headers
 xdg-user-dirs
-jre-openjdk
+jre-openjdk #java to install libreoffice extensions
 
 ### termnal appeareance
 cowsay
