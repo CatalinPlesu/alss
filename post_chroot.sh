@@ -1,17 +1,14 @@
 #!/bin/sh
-if ! source install.conf; then
-	read -p "Please enter hostname:" hostname
-	read -p "Please enter username:" username
-	read -sp "Please enter password:" password
-	read -sp "Please repeat password:" password2
-	# Check both passwords match
-	if [ "$password" != "$password2" ]; then
-	    echo "Passwords do not match"
-	    exit 1
-	fi
-  printf "hostname="$hostname"\n" >> "install.conf"
-  printf "username="$username"\n" >> "install.conf"
-  printf "password="$password"\n" >> "install.conf"
+if ! source ./install.conf; then
+	echo "enter hostname"
+	read hostname
+	echo "enter username"
+	read username
+	echo "enter password"
+	read password
+	printf "hostname="$hostname"\n" >> "install.conf"
+	printf "username="$username"\n" >> "install.conf"
+	printf "password="$password"\n" >> "install.conf"
 fi
 
 ln -sf /usr/share/zoneinfo/Europe/Chisinau /etc/localtime
@@ -46,5 +43,4 @@ pacman -S grub efibootmgr os-prober ntfs-3g mtools
 grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
 echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
 grub-mkconfig -o /boot/grub/grub.cfg
-echo "reboot!!"
-exit
+
