@@ -28,6 +28,7 @@ tlp
 scrot
 xsecurelock
 xclip
+xdg-user-dirs
 
 ### needed
 base-devel
