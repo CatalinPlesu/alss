@@ -29,6 +29,7 @@ scrot
 xsecurelock
 xclip
 xorg-xinit
+imagemagick
 
 ### needed
 base-devel
