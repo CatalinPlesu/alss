@@ -44,6 +44,11 @@ cmatrix
 ### appeareance
 lxappearance-gtk3
 kvantum-qt5
+gruvbox-dark-gtk
+arandr
+
+### torrent
+qbittorrent
 
 ### image view
 sxiv
