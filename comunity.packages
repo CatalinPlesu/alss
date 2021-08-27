@@ -30,12 +30,15 @@ xsecurelock
 xclip
 xorg-xinit
 imagemagick
+python-pip
+rsync
 
 ### needed
 base-devel
 linux-headers
 xdg-user-dirs
 jre-openjdk #java to install libreoffice extensions
+pdfjs
 
 ### termnal appeareance
 cowsay
