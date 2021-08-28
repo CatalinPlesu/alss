@@ -2,6 +2,8 @@
 adobe-source-han-sans-otc-fonts # japanese, chinese and more fonts
 ttf-fira-code
 terminus-font # increased font size for tty
+noto-fonts
+noto-fonts-emoji
 
 ### audio
 alsa-utils
@@ -32,13 +34,15 @@ xorg-xinit
 imagemagick
 python-pip
 rsync
+fzf
+ripgrep
+dash
 
 ### needed
 base-devel
 linux-headers
 xdg-user-dirs
 jre-openjdk #java to install libreoffice extensions
-pdfjs
 
 ### termnal appeareance
 cowsay
@@ -50,6 +54,10 @@ lxappearance-gtk3
 kvantum-qt5
 gruvbox-dark-gtk
 arandr
+
+### virtualization
+virtualbox
+virtualbox-host-modules-arch
 
 ### torrent
 qbittorrent
