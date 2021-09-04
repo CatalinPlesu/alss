@@ -10,6 +10,7 @@ alsa-utils
 pulseaudio
 pulseaudio-alsa
 pavucontrol
+pulsemixer
 
 ### terminal
 kitty # simple to use and configure terminal 
@@ -54,6 +55,7 @@ lxappearance-gtk3
 kvantum-qt5
 gruvbox-dark-gtk
 arandr
+screenkey
 
 ### virtualization
 virtualbox
@@ -67,6 +69,9 @@ sxiv
 
 ### pdf viewer
 zathura
+zathura-cb
+zathura-djvu
+zathura-ps 
 zathura-pdf-mupdf
 mupdf
 
