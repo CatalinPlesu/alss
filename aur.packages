@@ -8,6 +8,7 @@ pfetch
 ### terminal apps
 scrcpy
 backlight_control
+logkeys-git
 
 ### plugins
 zsh-syntax-highlighting
