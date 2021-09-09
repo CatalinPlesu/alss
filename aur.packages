@@ -9,6 +9,7 @@ pfetch
 scrcpy
 backlight_control
 logkeys-git
+libinput-gestures
 
 ### plugins
 zsh-syntax-highlighting

@@ -33,7 +33,7 @@ mkinitcpio -P
 
 echo "root password"
 passwd
-useradd -mG wheel,audio,video,games -s /bin/zsh $username
+useradd -mG wheel,audio,video,games,input -s /bin/zsh $username
 echo -e "$password\n$password\n" | passwd $username
 
 pacman -S grub efibootmgr os-prober ntfs-3g mtools

@@ -44,6 +44,8 @@ rsync
 fzf
 ripgrep
 dash
+xdotool
+wmctrl
 
 ### needed
 base-devel

@@ -12,7 +12,7 @@ ln -sfT dash /bin/sh
 
 echo "permit persist :wheel" >> /etc/doas.conf
 
-wget https://raw.github.com/seanyeh/vibreoffice/master/dist/vibreoffice-0.1.4.oxt
-unopkg add --shared vibreoffice-0.1.4.oxt 
+# wget https://raw.github.com/seanyeh/vibreoffice/master/dist/vibreoffice-0.1.4.oxt
+# unopkg add --shared vibreoffice-0.1.4.oxt 
 
 
