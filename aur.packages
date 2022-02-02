@@ -10,12 +10,10 @@ scrcpy
 backlight_control
 logkeys-git
 libinput-gestures
+zsh-pure-prompt
 
 ### plugins
 zsh-syntax-highlighting
 
 ### office / research
 zotero
-
-### art
-beeref

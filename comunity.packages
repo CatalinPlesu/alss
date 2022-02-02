@@ -46,12 +46,13 @@ ripgrep
 dash
 xdotool
 wmctrl
+bat
 
 ### needed
 base-devel
 linux-headers
 xdg-user-dirs
-jre-openjdk #java to install libreoffice extensions
+# jre-openjdk #java to install libreoffice extensions
 
 ### termnal appeareance
 cowsay
@@ -61,7 +62,7 @@ cmatrix
 ### appeareance
 lxappearance-gtk3
 kvantum-qt5
-gruvbox-dark-gtk
+# gruvbox-dark-gtk
 arandr
 screenkey
 
@@ -130,8 +131,8 @@ xorg-server
 xorg-apps
 
 ## x wm's
-qtile
-openbox
+# qtile
+# openbox
 
 ### compositor
 picom
